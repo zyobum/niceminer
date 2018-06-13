@@ -1,0 +1,15 @@
+[
+	{"time":0,"commands":[
+		{"id":1,"method":"subscribe","params":["nhmp.jp.nicehash.com:3200","37ZSfYEht1t1HM7qViNyUoQGYcWEpwyHwM.m01"]}
+	]},
+	{"time":2,"commands":[
+        {"id":1,"method":"algorithm.add","params":["equihash"]}
+    ]},
+	{"time":3,"commands":[
+		{"id":1,"method":"worker.add","params":["equihash","0"]}
+	]},
+	{"time":10,"loop":10,"commands":[
+		{"id":1,"method":"worker.print.speed","params":["0"]},
+		{"id":1,"method":"algorithm.print.speeds","params":[]}
+	]}
+]
