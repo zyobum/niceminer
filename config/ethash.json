@@ -6,10 +6,14 @@
         {"id":1,"method":"algorithm.add","params":["daggerhashimoto"]}
     ]},
 	{"time":3,"commands":[
-		{"id":1,"method":"worker.add","params":["daggerhashimoto","0"]}
+		{"id":1,"method":"workers.add","params":[
+			"alg-daggerhashimoto","0",
+			"alg-daggerhashimoto","1",
+			"alg-daggerhashimoto","2"
+		]}
 	]},
 	{"time":10,"loop":10,"commands":[
-		{"id":1,"method":"worker.print.speed","params":["0"]},
+		{"id":1,"method":"worker.print.speeds","params":[]},
 		{"id":1,"method":"algorithm.print.speeds","params":[]}
 	]}
 ]
