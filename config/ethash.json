@@ -9,7 +9,8 @@
 		{"id":1,"method":"workers.add","params":[
 			"alg-daggerhashimoto","0",
 			"alg-daggerhashimoto","1",
-			"alg-daggerhashimoto","2"
+			"alg-daggerhashimoto","2",
+			"alg-daggerhashimoto","3"
 		]}
 	]},
 	{"time":10,"loop":10,"commands":[
