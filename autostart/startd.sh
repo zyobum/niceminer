@@ -9,4 +9,4 @@ source /home/user/.bashrc
 /usr/bin/tmux send-keys -t $TITLE "source /home/bitcoin/.bashrc" C-m
 /usr/bin/tmux send-keys -t $TITLE "cd" C-m
 /usr/bin/tmux send-keys -t $TITLE "cd niceminer" C-m
-/usr/bin/tmux send-keys -t $TITLE "excavator -c current.json" C-m
+/usr/bin/tmux send-keys -t $TITLE "./run.sh" C-m
