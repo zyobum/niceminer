@@ -9,5 +9,5 @@ source /home/user/.bashrc
 /usr/bin/tmux send-keys -t $TITLE "source /home/bitcoin/.bashrc" C-m
 /usr/bin/tmux send-keys -t $TITLE "cd" C-m
 /usr/bin/tmux send-keys -t $TITLE "cd niceminer" C-m
-/usr/bin/tmux send-keys -t $TITLE "cd miner" C-m
+/usr/bin/tmux send-keys -t $TITLE "cd mine" C-m
 /usr/bin/tmux send-keys -t $TITLE "./run.sh" C-m
