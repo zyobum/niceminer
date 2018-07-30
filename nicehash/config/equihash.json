@@ -6,10 +6,16 @@
         {"id":1,"method":"algorithm.add","params":["equihash"]}
     ]},
 	{"time":3,"commands":[
-		{"id":1,"method":"worker.add","params":["equihash","0"]}
+		{"id":1,"method":"workers.add","params":[
+			"equihash","0",
+			"equihash","1",
+			"equihash","2",
+			"equihash","3",
+			"equihash","4"
+		]}
 	]},
 	{"time":10,"loop":10,"commands":[
-		{"id":1,"method":"worker.print.speed","params":["0"]},
+		{"id":1,"method":"worker.print.speeds","params":[]},
 		{"id":1,"method":"algorithm.print.speeds","params":[]}
 	]}
 ]
