@@ -14,4 +14,10 @@
 
 3.[Available algorithm in nicehash](https://www.nicehash.com/algorithm)
 
-4.[Install excavator](https://github.com/nicehash/excavator/releases)
+4.[Download excavator](https://github.com/nicehash/excavator/releases)
+
+4a. remove old version
+* sudo dpkg --remove excavator
+
+4b. install new version
+* sudo dpkg -i excavator_XXX.deb
