@@ -9,6 +9,7 @@
 
 3. install driver
 * sudo ubuntu-drivers autoinstall
+* sudo apt install ocl-icd-libopencl1
 * sudo apt autoremove
 
 4.[Setup autoupdate](https://help.ubuntu.com/lts/serverguide/automatic-updates.html)
